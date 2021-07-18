@@ -22,7 +22,31 @@
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B6M-mT-qsX">
                                 <rect key="frame" x="0.0" y="44" width="414" height="204.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6SG-nG-pF7">
+                                        <rect key="frame" x="0.0" y="102.5" width="394" height="102"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 + 2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F9h-Ki-KsL">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="102.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="45"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="labelColor"/>
+                                <constraints>
+                                    <constraint firstItem="6SG-nG-pF7" firstAttribute="top" secondItem="F9h-Ki-KsL" secondAttribute="bottom" id="0py-Ro-mba"/>
+                                    <constraint firstAttribute="bottom" secondItem="6SG-nG-pF7" secondAttribute="bottom" id="Igx-LT-hWO"/>
+                                    <constraint firstItem="F9h-Ki-KsL" firstAttribute="leading" secondItem="B6M-mT-qsX" secondAttribute="leading" id="ST1-YP-Qjg"/>
+                                    <constraint firstItem="6SG-nG-pF7" firstAttribute="leading" secondItem="B6M-mT-qsX" secondAttribute="leading" id="TpZ-4K-gLc"/>
+                                    <constraint firstAttribute="trailing" secondItem="6SG-nG-pF7" secondAttribute="trailing" constant="20" id="UKJ-Bj-tL6"/>
+                                    <constraint firstItem="6SG-nG-pF7" firstAttribute="height" secondItem="F9h-Ki-KsL" secondAttribute="height" id="VRn-HH-pWi"/>
+                                    <constraint firstItem="F9h-Ki-KsL" firstAttribute="top" secondItem="B6M-mT-qsX" secondAttribute="top" id="nT4-Jd-YKE"/>
+                                    <constraint firstAttribute="trailing" secondItem="F9h-Ki-KsL" secondAttribute="trailing" constant="20" id="ppt-ms-3sc"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
