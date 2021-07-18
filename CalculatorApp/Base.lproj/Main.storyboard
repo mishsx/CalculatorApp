@@ -16,11 +16,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7aL-gZ-jqq">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7aL-gZ-jqq">
                                 <rect key="frame" x="152" y="336" width="110" height="200"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B6M-mT-qsX">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B6M-mT-qsX">
                                 <rect key="frame" x="97" y="109" width="240" height="128"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
                             </view>
@@ -28,8 +28,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="7aL-gZ-jqq" firstAttribute="height" secondItem="B6M-mT-qsX" secondAttribute="height" multiplier="1.5625" id="0Uf-vc-ytd"/>
                             <constraint firstItem="B6M-mT-qsX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="8WQ-MV-Sox"/>
                             <constraint firstItem="7aL-gZ-jqq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="152" id="ECS-yh-JUy"/>
+                            <constraint firstItem="7aL-gZ-jqq" firstAttribute="top" secondItem="B6M-mT-qsX" secondAttribute="bottom" constant="99" id="OVx-1d-z4p"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B6M-mT-qsX" secondAttribute="trailing" constant="77" id="cDZ-MC-4ws"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7aL-gZ-jqq" secondAttribute="bottom" constant="326" id="kKI-oi-gE6"/>
                             <constraint firstItem="B6M-mT-qsX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="65" id="kpZ-uc-T9J"/>
